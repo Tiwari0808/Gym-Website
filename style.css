@@ -1,0 +1,135 @@
+body {
+    background-image: url(img/pic1.jpg);
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+
+
+}
+
+.left {
+    
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 74px;
+
+}
+.left img{
+    width: 165px;
+}
+
+.mid {
+    display: block;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 260px;
+}
+
+.navbar li{
+    padding: 15pxpx;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 22px;
+    font-size: 23px;
+}
+
+li a:hover {
+    color: rgb(71, 253, 5);
+}
+
+h4{
+    display: block;
+    top: 23px;
+    right: -15px;
+    font-size: 24px;
+    font-family: monospace;
+    margin: 3px auto;
+    text-align: center;
+}
+
+.btn{
+    padding: 11px;
+    margin: 10px;
+    border-radius: 14px;
+    border: 1px solid #f1f4f4;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f1f4f4;
+    background-color: #01000682;
+    font-family: 'Archivo Black', sans-serif;
+}
+.btn:hover{
+    color: rgb(71, 253, 5);
+}
+
+.midpor{
+    border: 1px solid #f1f4f4;
+    position: absolute;
+    top: 207px;
+    border-radius: 28px;
+    left: 24px;
+    width: 350px;
+
+}
+
+.midpor h2{
+
+    font-family: monospace;
+    left: 124px;
+    display: block;
+    width: 90px;
+    top: 2px;
+    margin: 20px auto;
+}
+
+.form{
+    text-align: center;
+    padding: 4px;
+    width: 257px;
+    display: block;
+    margin: 5px auto;
+}
+
+.form input{
+    width: 240px;
+    padding: 6px;
+    margin: 3px;
+    text-align: center;
+    border: 1px solid #23ff00;
+}
+
+.midpor .fbtn{
+    padding: 9px;
+    margin: 15px auto;
+    border-radius: 14px;
+    border: 1px solid #23ff00;
+    cursor: pointer;
+    cursor: pointer;
+    font-size: 13px;
+    color: #f1f4f4;
+    background-color: #01000682;
+    display: block;
+    width: 90px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.fbtn:hover{
+    color: rgb(71, 253, 5);
+}
